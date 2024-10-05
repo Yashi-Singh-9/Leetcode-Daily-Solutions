@@ -32,10 +32,10 @@ Explanation: You can try all possible pairs to see that there is no way to divid
 **Constraints:**
 
 - `arr.length == n`
-- `1 <= n <= 10^5`
+- 1 <= n <= 10<sup>5</sup>
 - `n` is even.
-- `-10^9 <= arr[i] <= 10^9`
-- `1 <= k <= 10^5`
+- -10<sup>9</sup> <= arr[i] <= 10<sup>9</sup>
+- 1 <= k <= 10<sup>5</sup>
 
 ### Solution
 
