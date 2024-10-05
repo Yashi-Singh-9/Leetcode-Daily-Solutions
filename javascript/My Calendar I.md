@@ -15,29 +15,30 @@ Implement the `MyCalendar` class:
 - `boolean book(int start, int end)` Returns `true` if the event can be added to the calendar successfully without causing a double booking. Otherwise, return `false` and do not add the event to the calendar.
  
 **Example 1:**
-
-**Input**
+```
+Input
 ["MyCalendar", "book", "book", "book"]
 [[], [10, 20], [15, 25], [20, 30]]
 
-**Output**
+Output
 [null, true, false, true]
 
-**Explanation**
+Explanation
 
 MyCalendar myCalendar = new MyCalendar();
 myCalendar.book(10, 20); // return True
 myCalendar.book(15, 25); // return False, It can not be booked because time 15 is already booked by another event.
 myCalendar.book(20, 30); // return True, The event can be booked, as the first event takes every time less than 20, but not including 20.
- 
+ ```
 **Constraints:**
 
-- `0 <= start < end <= 109`
+- 0 <= start < end <= 10<sup>9</sup>
 - At most `1000` calls will be made to `book`.
 
 ### Solution 
 
 <!-- Solution in Javascript -->
+```javascript
 class MyCalendar {
     constructor() {
         // This will store the list of all booked events.
