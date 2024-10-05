@@ -16,16 +16,20 @@ Implement the `MyCircularDeque` class:
 - `boolean isEmpty()` Returns `true` if the deque is empty, or `false` otherwise.
 - `boolean isFull()` Returns `true` if the deque is full, or `false` otherwise.
  
+```
+Example 1:
 
-**Example 1:**
+Input:
 
-**Input**
 ["MyCircularDeque", "insertLast", "insertLast", "insertFront", "insertFront", "getRear", "isFull", "deleteLast", "insertFront", "getFront"]
 [[3], [1], [2], [3], [4], [], [], [], [4], []]
-**Output**
+
+Output:
+
 [null, true, true, true, false, 2, true, true, true, 4]
 
-**Explanation**
+Explanation:
+
 MyCircularDeque myCircularDeque = new MyCircularDeque(3);
 myCircularDeque.insertLast(1);  // return True
 myCircularDeque.insertLast(2);  // return True
@@ -36,7 +40,7 @@ myCircularDeque.isFull();       // return True
 myCircularDeque.deleteLast();   // return True
 myCircularDeque.insertFront(4); // return True
 myCircularDeque.getFront();     // return 4
- 
+``` 
 
 **Constraints:**
 
