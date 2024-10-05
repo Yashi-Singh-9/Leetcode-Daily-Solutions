@@ -32,12 +32,12 @@ Note that common prefixes between elements of the same array do not count.
 
 Constraints:
 
-- `1 <= arr1.length, arr2.length <= 5 * 104`
-- `1 <= arr1[i], arr2[i] <= 108`
+- 1 <= arr1.length, arr2.length <= 5 * 10<sup>4</sup>
+- 1 <= arr1[i], arr2[i] <= 10<sup>8</sup>
 
 ## Solution 
 
-<!-- Solution in JavaScript -->
+```javascript
 
 function longestCommonPrefix(arr1, arr2) {
     const prefixMap = new Map();
@@ -83,3 +83,4 @@ console.log(longestCommonPrefix([23600000, 23600001, 23600002], [23700000, 23700
 console.log(longestCommonPrefix([123, 124, 125], [1234, 1244])); // Expected Output: 3
 console.log(longestCommonPrefix([300, 301, 302], [3000, 3001])); // Expected Output: 3
 console.log(longestCommonPrefix([100], [1000])); // Expected Output: 3
+```
