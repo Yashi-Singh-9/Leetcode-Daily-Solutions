@@ -13,13 +13,15 @@ Implement the `AllOne` class:
 - `getMinKey()` Returns one of the keys with the minimum count. If no element exists, return an empty string `""`.
 
 **Note** that each function must run in `O(1)` average time complexity.
+```
+Example 1:
 
-**Example 1:**
+Input:
 
-**Input**
 ["AllOne", "inc", "inc", "getMaxKey", "getMinKey", "inc", "getMaxKey", "getMinKey"]
 [[], ["hello"], ["hello"], [], [], ["leet"], [], []]
-**Output**
+
+Output:
 [null, null, null, "hello", "hello", null, "hello", "leet"]
 
 **Explanation**
@@ -31,14 +33,14 @@ allOne.getMinKey(); // return "hello"
 allOne.inc("leet");
 allOne.getMaxKey(); // return "hello"
 allOne.getMinKey(); // return "leet"
- 
+ ```
 
 **Constraints:**
 
-`1 <= key.length <= 10`
-`key` consists of lowercase English letters.
-It is guaranteed that for each call to `dec`, `key` is existing in the data structure.
-At most 5 * 10^4 calls will be made to `inc`, `dec`, `getMaxKey`, and `getMinKey`.
+- `1 <= key.length <= 10`
+- `key` consists of lowercase English letters.
+- It is guaranteed that for each call to `dec`, `key` is existing in the data structure.
+- At most 5 * 10<sup>4</sup> calls will be made to `inc`, `dec`, `getMaxKey`, and `getMinKey`.
 
 ### Solution
 
