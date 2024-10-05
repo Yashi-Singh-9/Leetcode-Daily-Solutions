@@ -33,9 +33,9 @@ Explanation: Here the sum is 6. which is already divisible by 3. Thus we do not 
 
 **Constraints:**
 
-- `1 <= nums.length <= 10^5`
-- `1 <= nums[i] <= 10^9`
-- `1 <= p <= 10^9`
+- 1 <= nums.length <= 10<sup>5</sup>
+- 1 <= nums[i] <= 10<sup>9</sup>
+- 1 <= p <= 10<sup>9</sup>
 
 ### Solution
 
