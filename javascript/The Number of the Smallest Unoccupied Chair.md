@@ -6,7 +6,7 @@ There is a party where `n` friends numbered from `0` to `n - 1` are attending. T
 
 When a friend leaves the party, their chair becomes unoccupied at the moment they leave. If another friend arrives at that same moment, they can sit in that chair.
 
-You are given a **0-indexed** 2D integer array `times` where times[i] = [arrival<inf>i</inf>, leaving<inf>i</inf>], indicating the arrival and leaving times of the i<sup>th</sup> friend respectively, and an integer `targetFriend`. All arrival times are **distinct**.
+You are given a **0-indexed** 2D integer array `times` where times[i] = [arrival<sub>i</sub>, leaving<sub>i</sub>], indicating the arrival and leaving times of the i<sup>th</sup> friend respectively, and an integer `targetFriend`. All arrival times are **distinct**.
 
 Return *the **chair number** that the friend numbered `targetFriend` will sit on*.
 
@@ -42,9 +42,9 @@ Since friend 0 sat on chair 2, we return 2.
 - `n == times.length`
 - 2 <= n <= 10<sup>4</sup>
 - `times[i].length == 2`
-- 1 <= arrival<inf>i</inf> < leaving<inf>i</inf> <= 10<sup>5</sup>
+- 1 <= arrival<sub>i</sub> < leaving<sub>i</sub> <= 10<sup>5</sup>
 - `0 <= targetFriend <= n - 1`
-- Each arrival<inf>i</inf> time is distinct.
+- Each arrival<sub>i</sub> time is distinct.
 
 ### Answer:
 
