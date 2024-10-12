@@ -1,6 +1,6 @@
 # Divide Intervals Into Minimum Number of Groups
 
-You are given a 2D integer array `intervals` where intervals[i] = [left<sub>i</sub>, right<sub>i</sub>] represents the inclusive interval [left<sub>i<sub>, right<sub>i</sub>].
+You are given a 2D integer array `intervals` where intervals[i] = [left<sub>i</sub>, right<sub>i</sub>] represents the inclusive interval [left<sub>i</sub>, right<sub>i</sub>].
 
 You have to divide the intervals into one or more `groups` such that each interval is in `exactly` one group, and no two intervals that are in the same group `intersect` each other.
 
